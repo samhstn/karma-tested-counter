@@ -14,10 +14,6 @@ module.exports = function (config) {
       'public/*.html'
     ],
 
-    exclude: [
-    
-    ],
-
     preprocessors: {
       'public/*.html': ['html2js']
     },
@@ -32,14 +28,8 @@ module.exports = function (config) {
 
     autoWatch: appConfig.autoWatch,
 
-    // autoWatch: false,
-
     browsers: appConfig.browsers,
 
-    // browsers: ['Chrome'],
-
     singleRun: appConfig.singleRun
-
-    //singleRun: true
   })
 }
